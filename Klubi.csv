@@ -1,0 +1,123 @@
+Rang,Ime,Sport,Drzava,Vrednost
+1.0,Dallas Cowboys,American Football,United States,4.2
+2.0,New York Yankees,Baseball,United States,3.7
+3.0,Manchester United,Football,England,3.69
+4.0,Barcelona,Football,Spain,3.64
+5.0,Real Madrid,Football,Spain,3.58
+6.0,New England Patriots,American Football,United States,3.4
+7.0,New York Knicks,Basketball,United States,3.3
+8.0,New York Giants,American Football,United States,3.1
+9.0,Los Angeles Lakers,Basketball,United States,3.0
+,San Francisco 49ers,American Football,United States,
+11.0,Washington Redskins,American Football,United States,2.95
+12.0,Los Angeles Rams,American Football,United States,2.9
+13.0,Los Angeles Dodgers,Baseball,United States,2.75
+,New York Jets,American Football,United States,
+15.0,Bayern München,Football,Germany,2.71
+16.0,Boston Red Sox,Baseball,United States,2.7
+,Chicago Bears,American Football,United States,
+18.0,Chicago Cubs,Baseball,United States,2.68
+19.0,San Francisco Giants,Baseball,United States,2.65
+20.0,Golden State Warriors,Basketball,United States,2.6
+,Houston Texans,American Football,United States,
+22.0,Chicago Bulls,Basketball,United States,2.5
+,Philadelphia Eagles,American Football,United States,
+24.0,Denver Broncos,American Football,United States,2.4
+25.0,Miami Dolphins,American Football,United States,2.38
+26.0,Green Bay Packers,American Football,United States,2.35
+27.0,Baltimore Ravens,American Football,United States,2.3
+28.0,Pittsburgh Steelers,American Football,United States,2.25
+,Seattle Seahawks,American Football,United States,
+30.0,Boston Celtics,Basketball,United States,2.2
+,Minnesota Vikings,American Football,United States,
+32.0,Indianapolis Colts,American Football,United States,2.18
+33.0,Atlanta Falcons,American Football,United States,2.13
+34.0,Oakland Raiders,American Football,United States,2.1
+35.0,Manchester City,Football,England,2.083
+36.0,Los Angeles Chargers,American Football,United States,2.08
+37.0,Carolina Panthers,American Football,United States,2.075
+38.0,Arizona Cardinals,American Football,United States,2.025
+39.0,Los Angeles Clippers,Basketball,United States,2.0
+,New York Mets,Baseball,United States,
+,Tennessee Titans,American Football,United States,
+42.0,Jacksonville Jaguars,American Football,United States,1.95
+43.0,Arsenal,Football,England,1.93
+44.0,Kansas City Chiefs,American Football,United States,1.88
+45.0,Cleveland Browns,American Football,United States,1.85
+46.0,Chelsea,Football,England,1.845
+47.0,Brooklyn Nets,Basketball,United States,1.8
+,St. Louis Cardinals,Baseball,United States,
+,Tampa Bay Buccaneers,American Football,United States,
+50.0,Los Angeles Angels of Anaheim,Baseball,United States,1.75
+,New Orleans Saints,American Football,United States,
+1.0,Manchester United,Football,England,1.83
+2.0,Dallas Cowboys,American Football,United States,1.65
+3.0,New York Yankees,Baseball,United States,1.6
+4.0,Washington Redskins,American Football,United States,1.55
+5.0,New England Patriots,American Football,United States,1.36
+6.0,Real Madrid,Football,Spain,1.32
+7.0,New York Giants,American Football,United States,1.18
+8.0,Arsenal,Football,England,1.18
+9.0,New York Jets,American Football,United States,1.17
+10.0,Houston Texans,American Football,United States,1.15
+1.0,Manchester United,Football,England,1.86
+2.0,Dallas Cowboys,American Football,United States,1.81
+3.0,New York Yankees,Baseball,United States,1.7
+4.0,Washington Redskins,American Football,United States,1.55
+5.0,Real Madrid,Football,Spain,1.45
+6.0,New England Patriots,American Football,United States,1.37
+7.0,Arsenal,Football,England,1.19
+8.0,New York Giants,American Football,United States,1.18
+9.0,Houston Texans,American Football,United States,1.17
+10.0,New York Jets,American Football,United States,1.14
+1.0,Manchester United,Football,England,2.23
+2.0,Real Madrid,Football,Spain,1.88
+3.0,New York Yankees,Baseball,United States,1.85
+,Dallas Cowboys,American Football,United States,
+5.0,Washington Redskins,American Football,United States,1.56
+6.0,Los Angeles Dodgers,Baseball,United States,1.4
+,New England Patriots,American Football,United States,
+8.0,Barcelona,Football,Spain,1.31
+9.0,New York Giants,American Football,United States,1.3
+10.0,Arsenal,Football,England,1.29
+1.0,Real Madrid,Football,Spain,3.3
+2.0,Manchester United,Football,England,3.165
+3.0,Barcelona,Football,Spain,2.6
+4.0,New York Yankees,Baseball,United States,2.3
+5.0,Dallas Cowboys,American Football,United States,2.1
+6.0,New England Patriots,American Football,United States,1.635
+7.0,Los Angeles Dodgers,Baseball,United States,1.615
+8.0,Washington Redskins,American Football,United States,1.6
+9.0,New York Giants,American Football,United States,1.468
+10.0,Arsenal,Football,England,1.326
+1.0,Real Madrid,Football,Spain,3.44
+2.0,Barcelona,Football,Spain,3.2
+3.0,Manchester United,Football,England,2.81
+4.0,New York Yankees,Baseball,United States,2.5
+5.0,Dallas Cowboys,American Football,United States,2.3
+6.0,Los Angeles Dodgers,Baseball,United States,2.0
+7.0,Bayern München,Football,Germany,1.85
+8.0,New England Patriots,American Football,United States,1.8
+9.0,Washington Redskins,American Football,United States,1.7
+10.0,New York Giants,American Football,United States,1.55
+1.0,Real Madrid,Football,Spain,3.26
+2.0,Dallas Cowboys,American Football,United States,3.2
+,New York Yankees,Baseball,United States,
+4.0,Barcelona,Football,Spain,3.16
+5.0,Manchester United,Football,England,3.1
+6.0,Los Angeles Lakers,Basketball,United States,2.6
+,New England Patriots,American Football,United States,
+8.0,New York Knicks,Basketball,United States,2.5
+9.0,Los Angeles Dodgers,Baseball,United States,2.4
+,Washington Redskins,American Football,United States,
+1.0,Dallas Cowboys,American Football,United States,4.0
+2.0,Real Madrid,Football,Spain,3.65
+3.0,Barcelona,Football,Spain,3.55
+4.0,New York Yankees,Baseball,United States,3.4
+5.0,Manchester United,Football,England,3.32
+6.0,New England Patriots,American Football,United States,3.2
+7.0,New York Knicks,Basketball,United States,3.0
+8.0,Washington Redskins,American Football,United States,2.85
+9.0,New York Giants,American Football,United States,2.8
+10.0,Los Angeles Lakers,Basketball,United States,2.7
+,San Francisco 49ers,American Football,United States,
