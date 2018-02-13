@@ -31,7 +31,9 @@ re_podatki_pogodb = re.compile(
     '\n'
     '<td .*</td>'
     '\n'
-    '<td .*bottom;">(?P<Vrednost_pogodbe>.+?)<'
+    '<td .*bottom;">(?P<Vrednost_pogodbe>.+?)<.*/td>'
+    '\n'
+    '<td .*bottom;">(?P<Vrednost_pogodbe_letno>.+?)<'
     )
 #for ujemanje in re_podatki_transferjev.finditer(vsebina_strani):
     #print(ujemanje.groupdict())
@@ -43,8 +45,8 @@ re_podatki_pogodb = re.compile(
 
 
 
-#for ujemanje in re_podatki_pogodb.finditer(vsebina_strani):
-   # print(ujemanje.groupdict())
+for ujemanje in re_podatki_pogodb.finditer(vsebina_strani):
+    print(ujemanje.groupdict())
 
 def preberi_podatke(imenik):
     pogodbe = []
@@ -64,6 +66,12 @@ def preberi_podatke(imenik):
                     pogodba['Vrednost_pogodbe'] = re.sub('[,+]', '',pogodba['Vrednost_pogodbe']) 
                 if pogodba['Vrednost_pogodbe'] != None:
                     pogodba['Vrednost_pogodbe'] = int(pogodba['Vrednost_pogodbe'])
+                if pogodba['Vrednost_pogodbe_letno'] != None:
+                    pogodba['Vrednost_pogodbe_letno'] = pogodba['Vrednost_pogodbe_letno'].strip('$')
+                if pogodba['Vrednost_pogodbe_letno'] != None:
+                    pogodba['Vrednost_pogodbe_letno'] = re.sub('[,+]', '',pogodba['Vrednost_pogodbe_letno']) 
+                if pogodba['Vrednost_pogodbe_letno'] != None:
+                    pogodba['Vrednost_pogodbe_letno'] = int(pogodba['Vrednost_pogodbe_letno'])
                 pogodbe.append(pogodba)
             else:
                 print("neki ne deva tko k bi mogl")
@@ -81,7 +89,7 @@ def zapisi_csv(podatki, polja, ime_datoteke):
         for podatek in podatki:
             pisalec.writerow(podatek)
 
-Polja = ['Rank', 'Ime', 'Klub', 'Sport', 'Vrednost_pogodbe']
+Polja = ['Rank', 'Ime', 'Klub', 'Sport', 'Vrednost_pogodbe', 'Vrednost_pogodbe_letno']
 zapisi_csv(Pogodbe, Polja, 'Pogodbe.csv')
 
 import pandas as pd
